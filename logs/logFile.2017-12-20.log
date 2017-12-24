@@ -1,0 +1,105 @@
+2017-12-20 23:26:41,153 ERROR [main] SpringApplication: Application startup failed
+org.springframework.context.ApplicationContextException: Failed to load context listener class [com.arvato.csdb.config.ApplicationStartup]; nested exception is java.lang.ClassNotFoundException: com.arvato.csdb.config.ApplicationStartup
+	at org.springframework.boot.context.config.DelegatingApplicationListener.getListeners(DelegatingApplicationListener.java:91)
+	at org.springframework.boot.context.config.DelegatingApplicationListener.onApplicationEvent(DelegatingApplicationListener.java:57)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:167)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:122)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:73)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:336)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at com.docker.Application.main(Application.java:25)
+Caused by: java.lang.ClassNotFoundException: com.arvato.csdb.config.ApplicationStartup
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:250)
+	at org.springframework.boot.context.config.DelegatingApplicationListener.getListeners(DelegatingApplicationListener.java:83)
+	... 9 common frames omitted
+2017-12-20 23:26:42,161 DEBUG [background-preinit] logging: Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2017-12-20 23:27:00,568 ERROR [main] SpringApplication: Application startup failed
+org.springframework.context.ApplicationContextException: Failed to load context listener class [com.arvato.csdb.config.ApplicationStartup]; nested exception is java.lang.ClassNotFoundException: com.arvato.csdb.config.ApplicationStartup
+	at org.springframework.boot.context.config.DelegatingApplicationListener.getListeners(DelegatingApplicationListener.java:91)
+	at org.springframework.boot.context.config.DelegatingApplicationListener.onApplicationEvent(DelegatingApplicationListener.java:57)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:167)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:122)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:73)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:336)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at com.docker.Application.main(Application.java:25)
+Caused by: java.lang.ClassNotFoundException: com.arvato.csdb.config.ApplicationStartup
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:250)
+	at org.springframework.boot.context.config.DelegatingApplicationListener.getListeners(DelegatingApplicationListener.java:83)
+	... 9 common frames omitted
+2017-12-20 23:27:01,186 DEBUG [background-preinit] logging: Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2017-12-20 23:31:22,137 ERROR [main] SpringApplication: Application startup failed
+org.springframework.context.ApplicationContextException: Failed to load context listener class [com.arvato.csdb.config.ApplicationStartup]; nested exception is java.lang.ClassNotFoundException: com.arvato.csdb.config.ApplicationStartup
+	at org.springframework.boot.context.config.DelegatingApplicationListener.getListeners(DelegatingApplicationListener.java:91)
+	at org.springframework.boot.context.config.DelegatingApplicationListener.onApplicationEvent(DelegatingApplicationListener.java:57)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:167)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:122)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:73)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:336)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at com.docker.Application.main(Application.java:27)
+Caused by: java.lang.ClassNotFoundException: com.arvato.csdb.config.ApplicationStartup
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:250)
+	at org.springframework.boot.context.config.DelegatingApplicationListener.getListeners(DelegatingApplicationListener.java:83)
+	... 9 common frames omitted
+2017-12-20 23:31:22,785 DEBUG [background-preinit] logging: Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2017-12-20 23:32:40,302 ERROR [main] SpringApplication: Application startup failed
+org.springframework.context.ApplicationContextException: Failed to load context listener class [com.arvato.csdb.config.ApplicationStartup]; nested exception is java.lang.ClassNotFoundException: com.arvato.csdb.config.ApplicationStartup
+	at org.springframework.boot.context.config.DelegatingApplicationListener.getListeners(DelegatingApplicationListener.java:91)
+	at org.springframework.boot.context.config.DelegatingApplicationListener.onApplicationEvent(DelegatingApplicationListener.java:57)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:167)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:122)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:73)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:336)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at com.docker.Application.main(Application.java:26)
+Caused by: java.lang.ClassNotFoundException: com.arvato.csdb.config.ApplicationStartup
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:250)
+	at org.springframework.boot.context.config.DelegatingApplicationListener.getListeners(DelegatingApplicationListener.java:83)
+	... 9 common frames omitted
+2017-12-20 23:32:41,032 DEBUG [background-preinit] logging: Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2017-12-20 23:33:21,934 ERROR [main] SpringApplication: Application startup failed
+org.springframework.context.ApplicationContextException: Failed to load context listener class [com.arvato.csdb.config.ApplicationStartup]; nested exception is java.lang.ClassNotFoundException: com.arvato.csdb.config.ApplicationStartup
+	at org.springframework.boot.context.config.DelegatingApplicationListener.getListeners(DelegatingApplicationListener.java:91)
+	at org.springframework.boot.context.config.DelegatingApplicationListener.onApplicationEvent(DelegatingApplicationListener.java:57)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:167)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:122)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:73)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:336)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at com.docker.Application.main(Application.java:26)
+Caused by: java.lang.ClassNotFoundException: com.arvato.csdb.config.ApplicationStartup
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:250)
+	at org.springframework.boot.context.config.DelegatingApplicationListener.getListeners(DelegatingApplicationListener.java:83)
+	... 9 common frames omitted
+2017-12-20 23:33:22,114 DEBUG [background-preinit] logging: Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
